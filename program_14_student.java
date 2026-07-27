@@ -19,6 +19,7 @@ void accept(Scanner sc){
         
         System.out.print("enter branch :");
         branch = sc.next();
+        
         System.out.print("");
     }
  void display()
