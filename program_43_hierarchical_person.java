@@ -2,7 +2,6 @@ public class program_43_hierarchical_person {
     void display() {
         System.out.println("I am a program_43_hierarchical_person");
     }
-
     public static void main(String[] args) {
         Student_ s = new Student_();
         Teacher t = new Teacher();
@@ -18,7 +17,6 @@ public class program_43_hierarchical_person {
         m.manage();
     }
 }
-
 class Student_ extends program_43_hierarchical_person {
     void study() {
         System.out.println("Student is studying");
