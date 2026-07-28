@@ -4,14 +4,12 @@ public class program_53_method_override_employee {
         System.out.println("Employee is working");
     }
 }
-
 static class HR extends Employee {
     @Override
     void work() {
         System.out.println("HR recruits employees");
     }
 }
-
 static class Manager extends HR {
     @Override
     void work() {
@@ -29,7 +27,6 @@ static class developer extends Manager {
         HR h = new HR();
         Manager m = new Manager();
         developer d = new developer();
-
         e.work();
         h.work();
         m.work();
