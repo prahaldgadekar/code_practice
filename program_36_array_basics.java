@@ -9,7 +9,6 @@ public class program_36_array_basics {
         //     marks[3] = 40;
         //     marks[4] = 50;
 
-
         for(int i=0; i<marks.length; i++){
             System.out.println("student " + (i + 1) + ": " + marks[i]);
         }

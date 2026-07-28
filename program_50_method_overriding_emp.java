@@ -4,13 +4,11 @@ public class program_50_method_overriding_emp {
         m.work();
     }
 }
-
 class Emp_Base {
     void work(){
         System.out.println(" Employee works here");
     }
 }
-
 class Manager_Emp extends Emp_Base {
     @Override
     void work(){

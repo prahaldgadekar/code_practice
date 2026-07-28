@@ -17,7 +17,6 @@ public class program_35_employee_overloading {
         name = n;
         salary = 69999;
     }
-
     public static void main(String[] args) {
         program_35_employee_overloading e1 = new program_35_employee_overloading();
         program_35_employee_overloading e2 = new program_35_employee_overloading(2);

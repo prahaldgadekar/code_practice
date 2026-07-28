@@ -3,13 +3,11 @@ class Employee {
         System.out.println("Employee name is kunal");
     }
 }
-
 class Manager extends Employee {
     void managerInfo() {
         System.out.println("Manager name is jai");
     }
 }
-
 class Director extends Manager {
     void directorInfo() {
         System.out.println("Director name is prahlad");

@@ -8,7 +8,6 @@ class program_46_method_overloading_show {
         void display(String a) {
         System.out.println("string: " + a);
     } 
-
     public static void main(String[] args) {
         program_46_method_overloading_show obj = new program_46_method_overloading_show();
         obj.show(5);
