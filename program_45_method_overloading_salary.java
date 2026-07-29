@@ -10,7 +10,7 @@ public class program_45_method_overloading_salary {
     void salary(int b, int bo, int a) {
         System.out.println("Total program_45_method_overloading_salary = " + (b + bo + a));
     }
-
+    
     public static void main(String[] args) {
         program_45_method_overloading_salary obj = new program_45_method_overloading_salary();
         obj.salary(69000);

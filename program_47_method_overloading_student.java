@@ -2,7 +2,7 @@ public class program_47_method_overloading_student {
     void display(){
         System.out.println(" student information ");
     }
-
+    
 void display(String name){
     System.out.println(" student name : " + name);
 }

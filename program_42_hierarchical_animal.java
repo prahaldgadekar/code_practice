@@ -4,7 +4,6 @@ public class program_42_hierarchical_animal {
     void eat() {
         System.out.println("Animal eats food");
     }
-
     public static void main(String[] args) {
 
         Dog d = new Dog();
